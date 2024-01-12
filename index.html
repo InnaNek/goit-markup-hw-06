@@ -359,6 +359,53 @@
                 <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
         </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="modal-form">
+            <div class="modal-field">
+                <label for="user-name" class="model-label">Ім'я</label>
+                <div class="modal-input-vrap">
+                    <input id="user-name" type="text" name="user-name" class="modal-input">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-phone" class="model-label">Телефон</label>
+                <div class="modal-input-vrap">
+                    <input id="user-phone" type="tel" name="user-phone" class="modal-input">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-email" class="model-label">Пошта</label>
+                <div class="modal-input-vrap">
+                    <input id="user-email" type="email" name="user-email" class="modal-input">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="textarea-fild">
+                <label for="user-comment" class="model-label">Коментар</label>
+                <textarea placeholder="Введіть текст" name="user-comment" id="user-comment" class="model-textarea"></textarea>
+            </div>
+            <div class="check-fild">
+                <input id="user-privacy" name="user-privacy" value="true" type="checkbox" class="input-check visually-hidden">
+                <label for="user-privacy" class="input-check-text">
+                    <span class="check-box">
+                        <svg class="check-box-icon" width="11" height="8">
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </span>
+                    Погоджуюся з розсилкою та приймаю 
+                    <a href="" class="check-link">Умови договору</a>
+                </label>
+            </div>
+            <button class="model-btn" type="submit">Відправити</button>
+        </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>
